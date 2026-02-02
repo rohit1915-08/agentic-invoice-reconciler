@@ -46,3 +46,10 @@ You can run the main script and pass the invoice PDF as an argument.
 ```bash
 python main.py Invoice_1_Baseline.pdf
 ```
+
+**2. Run the "Price Trap" Test (Invoice 4)**
+This invoice has a hidden 10% price increase. The system should detect it and flag it.
+
+```bash
+python main.py Invoice_4_Price_Trap.pdf
+```
