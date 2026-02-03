@@ -1,6 +1,6 @@
 # AI Invoice Reconciliation Agent
 
-This is my submission for the AI Agent Internship task. It is a multi-agent system that automates the process of checking supplier invoices.
+It is a multi-agent system that automates the process of checking supplier invoices.
 
 It uses **LangGraph** to manage the workflow and **Llama 4 Vision (via Groq)** to read the documents. The system reads the invoice, finds the matching Purchase Order (PO) in the database, checks for errors (like price hikes), and decides whether to approve it or flag it for review.
 
